@@ -8,7 +8,7 @@
     /* Neutral Colors */
     --clr-white: hsl( 0, 0%, 100% ); /* main heading, stats */
     --clr-slightly-transparent-white: hsla( 0, 0%, 100%, 0.75 ); /* main paragraph */
-    --clr-slighty-transparent-white: hsla( 0, 0%, 100%, 0.6 ); /* stats headings */
+    --clr-slighty-transparent-white-2: hsla( 0, 0%, 100%, 0.6 ); /* stats headings */
 
     /* Body Copy */
     --fs: 15px;
@@ -32,4 +32,103 @@
 body {
     background: var(--clr-very-dark-blue);
     color: var(--clr-white);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+picture img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+main {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 1rem;
+    background: var(--clr-dark-desaturated-blue);
+}
+
+.content--section {
+    max-width: 70%;
+    margin: 0 auto;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content--section > div {
+    height: 55%;
+}
+
+.content--section > div > div {
+    height: 70%;
+}
+
+.content--section > div > div:nth-child(2) {
+    height: 30%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main h1 {
+    font-size: 2.4rem;
+    font-family: var(--ff-inter);
+}
+
+.main h1 span {
+    color: var(--clr-soft-violet);
+}
+
+.main p {
+    font-family: var(--ff-lexend-deca);
+    color: var(--clr-slightly-transparent-white);
+    font-weight: var(--fw-400);
+    font-size: 1.1rem;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.img--section {
+    filter: opacity(0.3) drop-shadow(0 0 var(--clr-soft-violet));
+}
+
+.sub div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub div h2 {
+    font-family: var(--ff-inter);
+    font-size: 1.5rem;
+}
+
+.sub div p {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: var(--clr-slighty-transparent-white-2);
+    font-family: var(--ff-lexend-deca);
+}
+
+@media only screen and (max-width: 1280px) {
+    .content--section {
+        max-width: 85%;
+    }
+
+    .content--section > div {
+        height: 80%;
+    }
 }
