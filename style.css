@@ -1,0 +1,24 @@
+:root {
+
+    /* Primary Colors */
+    --clr-vary-dark-blue: hsl( 233, 47%, 7% ); /* main background */
+    --clr-dark-desaturated-blue: hsl( 244, 38%, 16% ); /* card background */
+    --clr-soft-violet: hsl( 277, 64%, 61% ); /* accent */
+
+    /* Neutral Colors */
+    --clr-white: hsl( 0, 0%, 100% ); /* main heading, stats */
+    --clr-slightly-transparent-white: hsla( 0, 0%, 100%, 0.75 ); /* main paragraph */
+    --clr-slighty-transparent-white: hsla( 0, 0%, 100%, 0.6 ); /* stats headings */
+
+    /* Body Copy */
+    --fs: 15px;
+
+    /* Fonts */
+    --ff-inter: 'Inter', sans-serif;
+    --ff-lexend-deca: 'Lexend Deca', sans-serif;
+
+    /* Font Weights */
+    --fw-400: 400;
+    --fw-700: 700;
+
+}
