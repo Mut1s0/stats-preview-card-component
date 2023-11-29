@@ -10,7 +10,7 @@ function Stats() {
 
             <div className="w-[900px] max-w-[90%] h-fit md:flex md:flex-row-reverse rounded-t-xl rounded-b-xl">
 
-                <div className="mb-9 md:mb-0">
+                <div className="mb-9 md:mb-0 relative">
 
                     <picture>
 
@@ -20,7 +20,7 @@ function Stats() {
 
                     </picture>
 
-                    <div></div>
+                    <div className="absolute top-0 left-0 w-[100%] h-[100%] overlay opacity-60 rounded-t-xl md:rounded-t-none md:rounded-r-xl"></div>
 
                 </div>
 

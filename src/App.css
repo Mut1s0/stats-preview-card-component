@@ -1,7 +1,3 @@
-/* main {
-    border: 2px solid blue;
-} */
-
 main > div {
     background: var(--very-desaturated-blue-cardBg);
 }
@@ -32,4 +28,8 @@ main > div {
     color: var(--slightly-transparent-white-stat-headings);
     font-family: var(--ff-lexendDeca);
     font-weight: var(--fw-lexendDeca-regular);
+}
+
+.overlay {
+    background: var(--soft-violet-accent);
 }
