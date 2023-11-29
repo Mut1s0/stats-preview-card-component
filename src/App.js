@@ -1,10 +1,11 @@
 import './App.css';
+import Stats from './Stats';
 
 function App() {
 
   return(
 
-    <h1>App</h1>
+    <Stats />
 
   )
 }
