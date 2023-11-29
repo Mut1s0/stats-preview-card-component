@@ -1,6 +1,6 @@
-main {
+/* main {
     border: 2px solid blue;
-}
+} */
 
 main > div {
     background: var(--very-desaturated-blue-cardBg);
