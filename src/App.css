@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+main > div {
+    background: var(--very-desaturated-blue-cardBg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card__content > div:nth-child(1) > h1 {
+    color: var(--white-main-heading-stats);
+    font-family: var(--ff-inter);
+    font-weight: var(--fw-inter-bold);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card__content > div:nth-child(1) > h1 > span {
+    color: var(--soft-violet-accent);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card__content > div:nth-child(1) > p {
+    color: var(--slightly-transparent-white-main-paragraph);
+    font-family: var(--ff-inter);
+    font-weight: var(--fw-inter-regular);
 }
 
-.App-link {
-  color: #61dafb;
+.card__content > div:nth-child(2) > div > h2 {
+    color: var(--white-main-heading-stats);
+    font-family: var(--ff-inter);
+    font-weight: var(--fw-inter-bold);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card__content > div:nth-child(2) > div > h3 {
+    color: var(--slightly-transparent-white-stat-headings);
+    font-family: var(--ff-lexendDeca);
+    font-weight: var(--fw-lexendDeca-regular);
+}
+
+.overlay {
+    background: var(--soft-violet-accent);
 }
